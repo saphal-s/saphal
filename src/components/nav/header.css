@@ -1,0 +1,198 @@
+.nav{
+    width: 100%;
+    background: rgb(4,89,94);
+    color: #fff;
+    justify-content: center;
+}
+.nav h2{
+    font-family: 'Tapestry', cursive;
+    font-size: 50px;
+    padding: 30px 0px;
+    font-weight: 900;
+    color: #fff;
+}
+.nav ul {
+    margin-top: 45px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+    padding:0px 50px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.nav ul li a{
+    color: #fff;
+}
+.selected-header-option span {
+    border-bottom: 3px solid #fff;
+}
+.nav ul li span:hover{
+    border-bottom: 3px solid #fff;
+}
+.hero-section{
+    height: auto;
+    width: 100%;
+    background: rgb(4,89,94);  
+    position: relative;  
+}
+.contains{
+    display: flex;
+}
+.hero-footer img{
+position: absolute;
+bottom:0;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social-icons .icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+position: relative;
+margin: 5px;
+}
+.social-icons .icon i{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: rgb(4,89,94);
+}
+.social-icons .icon .fa-facebook-f{
+    padding-left: 2px;
+}
+.hero-section .name{
+
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-section .hello{
+    color: #fff;
+}
+.hero-section .name span{
+    color: rgb(149, 255, 0);
+}
+.hero-section .typicals{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-section .my-position .parg{
+text-align: center;
+font-size: 18px;
+color: #fff;
+font-weight: 550;
+}
+.hero-section .buttons{
+    text-align: center;
+}
+.hero-section .buttons button{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 7px 10px;
+    margin: 0px 20px;
+}
+.hero-section .buttons .resume{
+    background-color: rgb(141, 19, 19);
+    padding: 9px 10px;
+    border: none;
+}
+.hero-section .my-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    text-align: right;
+    border: 2px solid #fff;
+
+}
+
+.hero-section .my-image img{
+    height: 285px;
+    width: 285px;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-right: 5px;
+    transition: transform .2s;
+}
+.hero-section .my-image img:hover{
+    transform: scale(1.05);
+}
+
+/* drawer */
+
+.drawer-icon .fa-bars{
+font-size: 28px;
+margin-top: 45px;
+margin-left: 90px;
+display: none;
+}
+.drawers li{
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    padding: 40px;
+}
+.drawers li a{
+    color: #fff;
+}
+.ant-drawer-content {
+    background-color: rgb(4,89,94);
+    padding-bottom: 10px;
+}
+.ant-drawer-header{
+    background-color: rgb(4,89,94);
+}
+.ant-drawer-close{
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    color: #fff;
+    top: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav ul li{
+        display: none;
+    }
+    .drawer-icon .fa-bars{
+        display: block;
+    }
+    .contains{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .social-icons{
+        margin-top: -70px;
+    }
+    .nav h2{
+        font-size: 40px;
+        padding: 30px 0px;
+        font-weight: 900;
+        margin-left: 8px;
+    }
+    .hero-section .my-image{
+        margin-top: -10px;
+    }
+
+}
+@media screen and (max-width: 900px){
+    .hero-section .my-image{
+        margin-top: -50px;
+    }
+    
+}

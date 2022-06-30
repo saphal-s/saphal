@@ -1,0 +1,272 @@
+
+.about-me .about-title h2{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about::after{
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 6%; 
+    padding-top: 7px; 
+    border-bottom: 4px solid rgb(4,89,94); 
+}
+.about-me .about-content{
+    display: flex;
+}
+.about-me .about-content p{
+    text-align: justify;
+}
+.about-me .about-content img{
+    border: 5px solid rgb(4,89,94);
+}
+.about-me .about-paragraph{
+    font-size: 18px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.about-me .buttons button{
+    border: none;
+    background-color: rgb(4,89,94);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 7px 10px;
+    margin: 0px 20px;
+}
+.about-me .buttons .resume{
+    background-color: rgb(141, 19, 19);
+    border: none;
+}
+
+/* resume */
+
+.my-resume .resume-title h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my-resume .resume-title .resume::after{
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 4%; 
+    padding-top: 7px; 
+    border-bottom: 4px solid rgb(4,89,94); 
+}
+.ant-tabs-nav-list{
+    width: 300px;
+    
+}
+.resume-content .ant-tabs-nav{
+    border-right: none;
+    padding: 20px 0px;
+}
+.resume-content .ant-tabs-left{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.resume-content .ant-tabs-tab-active{
+    background-color:rgb(4,89,94) ;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.resume-content .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #fff;
+}
+.resume-content .ant-tabs-tab{
+    margin:20px 0px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resume-content .university{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-content .university li,.resume-content .parags{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resume-content .university li{
+    color: rgb(141, 19, 19);
+}
+.resume-content .university button{
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: rgb(141, 19, 19);
+    padding: 5px 10px;
+    border: none;
+}
+.resume-content .exucation{
+    padding: 50px;
+}
+.resume-content .progress{
+    width: 150px;
+    margin-left: 30px;
+    margin-top: -15px;
+    height: 10px;
+}
+.resume-content .progress-bar{
+    background-color: rgb(141, 19, 19);
+    height: 10px;
+}
+.resume-content .skill-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.resume-content .education a{
+    color: green;
+    padding-left: 40px;
+    font-size: 17px;
+}
+.resume-content .slink{
+    margin-top: -15px;
+}
+.resume-content .technology{
+    font-weight: 550;
+    font-size: 17px;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.resume-content .projects{
+    overflow-y: scroll;
+    height: 380px;
+}
+.resume-content .projects::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+.resume-content .projects::-webkit-scrollbar
+{
+	width: 9px;
+	background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.resume-content .projects::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(141, 19, 19);
+}
+
+/* contact */
+
+.contact-me{
+    height: auto;
+    width: 100%;
+    /* background:url('../../public/images/laps.jpg'); */
+    background-color:rgb(4,89,94) ;
+    background-size: cover;
+    position: relative;
+}
+.contact-me .contact-title h2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-me .contact-title .contact::after{
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 7%; 
+    padding-top: 7px; 
+    border-bottom: 4px solid rgb(141, 19, 19); 
+}
+.contact-me .footimage{
+    position: absolute;
+    bottom: 0;
+}
+.contact-me .get-touch h2{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-me .touch{
+    text-align: center;
+}
+.contact-me .social-iconss{
+    color: #fff;
+    font-size: 18px;
+}
+.contact-me .social-iconss i{
+    margin: 0px 10px;
+}
+.contact-me .email p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.contactForm{
+    width: 90%;
+    padding: 20px 40px 5px 40px;
+    background: #fff;
+    text-align: center;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span{
+    color:black;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: rgb(4,89,94);
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-size: 17px;
+}
+@media screen and (max-width: 1100px){
+    .about-me .about-content{
+        flex-wrap: wrap-reverse;
+    }   
+    .ant-tabs{
+        flex-wrap: wrap;
+    }
+}
